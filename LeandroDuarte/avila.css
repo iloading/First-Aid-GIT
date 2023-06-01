@@ -1,13 +1,16 @@
 html {
     height: 100%;
 }
+
 body {
     height: 100%;
 }
+
 main {
     height: calc(100% - 80px);
     display: flex;
 }
+
 section {
     display: flex;
     flex-direction: row;
@@ -18,16 +21,11 @@ section {
     margin: auto;
 }
 
-.description_1{
-    font-size: 50px;
-    color: #c92e2e;
-    margin: auto;
-}
-
 .doctor_photo {
     width: 400px;
     margin: 5rem;
 }
+
 .name {
     font-size: 96px;
     font-weight: normal;
@@ -37,14 +35,17 @@ section {
 .description {
     font-weight: normal;
     color: rgba(0, 0, 0, 0.5);
-    margin: 0;
+    margin: 2rem 0 0 0;
 }
+
 .description_extra {
     transform: translateY(-1rem);
     display: flex;
     rotate: -3deg;
     color: #c92e2e;
+    margin: 1rem 0 0 0;
 }
+
 .status img {
     width: 200px;
     margin-right: 1rem;
@@ -57,17 +58,21 @@ section {
         align-items: center;
         justify-content: center;
     }
+
     article {
         margin: 2rem;
         text-align: center;
     }
+
     .name {
         margin: 0 0 3rem;
     }
+
     .doctor_photo {
         width: 200px;
         margin: 2rem;
     }
+
     .description_extra {
         transform: translateY(0);
         justify-content: center;
